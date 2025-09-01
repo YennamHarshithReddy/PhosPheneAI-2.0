@@ -16,10 +16,16 @@ def load_config(config_name="base"):
     with open(config_file, 'r') as f:
         return yaml.safe_load(f)
 
-# Fixed Custom HuggingFace Chat LLM class with correct response parsing
+# Custom HuggingFace Chat LLM class using secrets management
 class CustomChatLLM:
-    def __init__(self, model, token):
-        self.client = InferenceClient(token=token)
+    def __init__(self, model):
+        # Read token from Streamlit secrets instead of hardcoding
+        try:
+            hf_token = st.secrets["HF_TOKEN"]
+        except KeyError:
+            raise ValueError("HF_TOKEN not found in Streamlit secrets. Please add it to .streamlit/secrets.toml")
+        
+        self.client = InferenceClient(token=hf_token)
         self.model = model
 
     def invoke(self, prompt):
@@ -47,11 +53,9 @@ INSTRUCTIONS:
             )
             
             # Correct way to extract content from Hugging Face API response
-            # Response is a dictionary, not an object with attributes
             if isinstance(response, dict) and "choices" in response:
                 return response["choices"][0]["message"]["content"]
             else:
-                # If response format is different, try direct access
                 return str(response)
                 
         except Exception as e:
@@ -82,11 +86,8 @@ def load_rag_system(config_name="base"):
     else:
         retriever = db.as_retriever(search_kwargs={"k": config['retrieval_k']})
     
-    # Initialize Custom Chat LLM
-    llm = CustomChatLLM(
-        model="meta-llama/Llama-3.1-8B-Instruct",
-        token="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"
-    )
+    # Initialize Custom Chat LLM without hardcoded token
+    llm = CustomChatLLM(model="meta-llama/Llama-3.1-8B-Instruct")
     
     return retriever, llm, config
 
@@ -203,7 +204,8 @@ def main():
         st.sidebar.subheader("🤖 AI System Status")
         st.sidebar.success("Hugging Face: Connected")
         st.sidebar.success("Model: Llama-3.1-8B-Instruct")
-        st.sidebar.success("API: Chat Completions (Fixed)")
+        st.sidebar.success("Token: From Secrets ✅")
+        st.sidebar.success("API: Chat Completions")
         st.sidebar.success("Vector Store: FAISS")
         
         # Load stats if available
@@ -217,6 +219,8 @@ def main():
             
     except Exception as e:
         st.error(f"Error loading RAG system: {e}")
+        if "HF_TOKEN not found" in str(e):
+            st.info("💡 Make sure your .streamlit/secrets.toml file contains: HF_TOKEN = \"your_token_here\"")
         return
     
     # Example questions with clickable buttons
