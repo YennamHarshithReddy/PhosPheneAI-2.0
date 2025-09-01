@@ -1,0 +1,22 @@
+{
+  "total_articles": 21,
+  "total_chunks": 286,
+  "index_time_seconds": 7.143012,
+  "config_used": {
+    "name": "base",
+    "chunk_size": 800,
+    "chunk_overlap": 100,
+    "separators": [
+      "\n\n",
+      ".",
+      "?",
+      "!",
+      ";",
+      ":",
+      " ",
+      ""
+    ],
+    "retrieval_k": 5,
+    "use_mmr": false
+  }
+}

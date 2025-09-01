@@ -1,0 +1,19 @@
+{
+  "total_articles": 21,
+  "total_chunks": 144,
+  "index_time_seconds": 5.858236,
+  "config_used": {
+    "name": "alt",
+    "chunk_size": 1500,
+    "chunk_overlap": 200,
+    "separators": [
+      "\n\n",
+      "\n",
+      ".",
+      " ",
+      ""
+    ],
+    "retrieval_k": 4,
+    "use_mmr": true
+  }
+}
