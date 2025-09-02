@@ -1,4 +1,6 @@
-# PhosPhene AIWelcome to PhosPhene AI, a cutting-edge AI-powered news question answering system designed to help you explore and understand the latest developments in artificial intelligence. This project leverages Retrieval-Augmented Generation (RAG) techniques enhanced with large language models (LLMs) for precise and contextually grounded answers.
+# PhosPhene AI
+ 
+ Welcome to PhosPhene AI, a cutting-edge AI-powered news question answering system designed to help you explore and understand the latest developments in artificial intelligence. This project leverages Retrieval-Augmented Generation (RAG) techniques enhanced with large language models (LLMs) for precise and contextually grounded answers.
 
 ## Features- Robust ingestion pipeline for heterogeneous news articles (HTML, TXT) extracted from a ZIP archive
 - Advanced cleaning and parsing using BeautifulSoup to extract meaningful content and metadata
