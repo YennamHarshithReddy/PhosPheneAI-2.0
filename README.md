@@ -16,23 +16,23 @@
 
 ### Installation & Setup1. Clone the repository:
 
-    ```bash
+    bash
     git clone https://github.com/yourusername/phosphene-ai.git
     cd phosphene-ai
-    ```
+    
 
 2. Create and activate your virtual environment:
 
-    ```bash
+    bash
     python -m venv .venv
     source .venv/bin/activate  # Linux/Mac```  .venv\Scripts\activate   # Windows
-    ```
+    
 
 3. Install the dependencies:
 
-    ```bash
+    bash
     pip install -r requirements.txt
-    ```
+    
 
 4. Place your news dataset ZIP file in the `data/news/` directory.
 
@@ -41,24 +41,24 @@
     - Create a `.streamlit/secrets.toml` file
     - Add your `HF_TOKEN` (HuggingFace API token) inside it:
 
-        ```toml
-        HF_TOKEN = "your_huggingface_token_here"```      ```
+        toml
+        HF_TOKEN = "your_huggingface_token_here"
 
 ### Running the Application1. Preprocess and build the index by running:
 
-    ```bash
+    bash
     python ingest.py
-    ```
+    
 
 2. Launch the web app:
 
-    ```bash
+    bash
     streamlit run app.py
-    ```
+    
 
 3. Use the sidebar to choose configurations and try sample questions.
 
-## Project Structure```
+## Project Structure
 /PhosPheneAI
 ├── /data/news/               # Raw news dataset ZIP and extracted files```─ /faiss_index_base/        # Persisted FAISS vector index (base config)
 ├── /faiss_index_alt/         # Persisted FAISS vector```dex (alt config)
@@ -69,7 +69,7 @@
 ├── ingest.py                 # Data```gestion and indexing pipeline
 ├── app.py                   # Streamlit application frontend
 ├── eval.py                   # Evaluation scripts```r QA and metrics
-├── requirements.txt          # Python dependencies```─ README.md                 # Project```cumentation
+├── requirements.txt          # Python dependencies```─ README.md                 # Projectcumentation
 ```
 
 ## How It WorksThe system works in two main phases:
