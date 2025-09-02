@@ -1,5 +1,5 @@
 # RAG System Evaluation Report
-*Generated on 2025-09-02T10:27:40.314393*
+*Generated on 2025-09-02T12:25:05.061083*
 
 ## Executive Summary
 This report evaluates two RAG configurations on a news article dataset with 15 test questions spanning multiple categories (who/what/when/where/how, comparisons, temporal queries).
@@ -15,36 +15,36 @@ This report evaluates two RAG configurations on a news article dataset with 15 t
 ## Performance Results
 ### Latency Analysis
 - **BASE Average Latency**: 0.85s
-- **ALT Average Latency**: 0.45s
-- **Difference**: -0.40s (+46.8% improvement)
+- **ALT Average Latency**: 0.53s
+- **Difference**: -0.31s (+37.0% improvement)
 
 ### Success Rates
 - **BASE Success Rate**: 100.0% (15/15)
 - **ALT Success Rate**: 100.0% (15/15)
 
 ### Token Usage
-- **BASE Average Tokens**: 609
+- **BASE Average Tokens**: 606
 - **ALT Average Tokens**: 751
-- **Difference**: +143 tokens
+- **Difference**: +145 tokens
 
 ## Question Categories Analysis
 ### BASE Configuration
-- **When**: 2 questions
-- **Where**: 1 questions
-- **Who**: 3 questions
-- **Temporal**: 1 questions
-- **How**: 2 questions
-- **What**: 4 questions
 - **Comparison**: 2 questions
+- **When**: 2 questions
+- **Temporal**: 1 questions
+- **Who**: 3 questions
+- **What**: 4 questions
+- **Where**: 1 questions
+- **How**: 2 questions
 
 ### ALT Configuration
-- **When**: 2 questions
-- **Where**: 1 questions
-- **Who**: 3 questions
-- **Temporal**: 1 questions
-- **How**: 2 questions
-- **What**: 4 questions
 - **Comparison**: 2 questions
+- **When**: 2 questions
+- **Temporal**: 1 questions
+- **Who**: 3 questions
+- **What**: 4 questions
+- **Where**: 1 questions
+- **How**: 2 questions
 
 ## Key Findings
 ### Performance Winner

@@ -60,17 +60,18 @@
 
 ## Project Structure
 /PhosPheneAI
-├── /data/news/               # Raw news dataset ZIP and extracted files```─ /faiss_index_base/        # Persisted FAISS vector index (base config)
-├── /faiss_index_alt/         # Persisted FAISS vector```dex (alt config)
-├── /configs/                 # Chunking and retrieval configs
-│   ├── base.yaml            # Base chunking configuration
-│   └── alt.yaml             # Alternative chunking configuration
-├── /.streamlit/secrets.toml  # API tokens and private secrets
-├── ingest.py                 # Data```gestion and indexing pipeline
-├── app.py                   # Streamlit application frontend
-├── eval.py                   # Evaluation scripts```r QA and metrics
-├── requirements.txt          # Python dependencies```─ README.md                 # Projectcumentation
-```
+├── /data/news/ # Raw news dataset ZIP and extracted files
+├── /faiss_index_base/ # Persisted FAISS vector index (base config)
+├── /faiss_index_alt/ # Persisted FAISS vector index (alt config)
+├── /configs/ # Chunking and retrieval configs
+│ ├── base.yaml # Base chunking configuration
+│ └── alt.yaml # Alternative chunking configuration
+├── /.streamlit/secrets.toml # API tokens and private secrets
+├── ingest.py # Data ingestion and indexing pipeline
+├── app.py # Streamlit application frontend
+├── eval.py # Evaluation scripts for QA and metrics
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
 ## How It WorksThe system works in two main phases:
 

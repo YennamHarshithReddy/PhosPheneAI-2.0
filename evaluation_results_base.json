@@ -17,25 +17,25 @@
     "retrieval_k": 5,
     "use_mmr": false
   },
-  "timestamp": "2025-09-02T10:27:25.507363",
+  "timestamp": "2025-09-02T12:24:51.037564",
   "performance_metrics": {
-    "average_latency": 0.8526697476704915,
-    "median_latency": 0.7165658473968506,
-    "min_latency": 0.5716395378112793,
-    "max_latency": 2.3800830841064453,
+    "average_latency": 0.8472395261128743,
+    "median_latency": 0.680537223815918,
+    "min_latency": 0.5914075374603271,
+    "max_latency": 3.0235838890075684,
     "total_questions": 15,
     "successful_questions": 15,
-    "average_tokens": 608.9333333333333,
-    "total_estimated_tokens": 9134
+    "average_tokens": 605.9333333333333,
+    "total_estimated_tokens": 9089
   },
   "ragas_scores": {
-    "simple_faithfulness_mean": 0.6235110371666409,
-    "simple_faithfulness_std": 0.13151099759786494
+    "simple_faithfulness_mean": 0.644903810284823,
+    "simple_faithfulness_std": 0.13734800652604806
   },
   "detailed_results": [
     {
       "question": "Who announced the AI principles for generative AI oversight?",
-      "answer": "The government announced the AI principles for generative AI oversight. \n\nThe five overarching principles are:\n1. Safety, security, and robustness\n2. Appropriate transparency and explainability\n3. Fairness\n4. Accountability and governance\n5. Contestability and redress",
+      "answer": "The government announced the AI principles for generative AI oversight, specifically asking regulators to think about how the innovative development and deployment of AI can be supported against five overarching principles: \n\n1. Safety, security, and robustness\n2. Appropriate transparency and explainability\n3. Fairness\n4. Accountability and governance\n5. Contestability and redress.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -47,12 +47,12 @@
       "category": "who",
       "difficulty": "easy",
       "num_sources": 5,
-      "latency": 2.3800830841064453,
-      "estimated_tokens": 546
+      "latency": 3.0235838890075684,
+      "estimated_tokens": 562
     },
     {
       "question": "Who are the key investors mentioned in recent AI startup funding rounds?",
-      "answer": "The key investors mentioned in recent AI startup funding rounds are:\n\n1. Sequoia Capital\n2. Andreessen Horowitz\n3. Thrive\n4. K2 Global\n5. Founders Fund\n6. Microsoft \n\nThese investors have collectively invested around $310 million in an AI startup at a valuation of $27 billion to $29 billion.",
+      "answer": "The key investors mentioned in recent AI startup funding rounds are:\n\n1. Sequoia Capital\n2. Andreessen Horowitz\n3. Thrive\n4. K2 Global\n5. Founders Fund\n6. Microsoft",
       "contexts": [
         "In fact, new data from Carta, which provides cap table management and other services, indicates that AI-focused startups are outperforming their larger peer group at both the seed and Series A stage.\n\nThe dataset, which notes that AI-centered startups are raising more and at higher valuations than other startups, indicates that perhaps the best way to avoid a down round today is to build in the artificial intelligence space.\n\nWhat the data says\n\nPer Carta data relating to the first quarter of the year, seed funding to non-AI startups in the U.S. market that use its services dipped from $1.64 billion to $1.08 billion, or a decline of around 34%. That result is directionally aligned with other data that we\u2019ve seen regarding Q1 2023 venture capital totals; the data points down.",
         "The best way to avoid a down round is to found an AI startup\n\nAs we see unicorns slash staff and the prevalence of down rounds spike, it may seem that the startup ecosystem is chock-full of bad news and little else. That\u2019s not precisely the case.\n\nWhile AI, and in particular the generative AI subcategory, are as hot as the sun, not all venture attention is going to the handful of names that you already know. Sure, OpenAI is able to land nine and 10-figure rounds from a murderer\u2019s row of tech investors and mega-cap corporations. And rising companies like Hugging Face and Anthropic cannot stay out of the news, proving that smaller AI-focused startups are doing more than well.",
@@ -64,12 +64,12 @@
       "category": "who",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.8252913951873779,
-      "estimated_tokens": 581
+      "latency": 0.6513378620147705,
+      "estimated_tokens": 560
     },
     {
       "question": "What are the main AI regulation approaches being considered?",
-      "answer": "Based on the provided context, the main AI regulation approaches being considered are:\n\n1. **Risk-based framework**: The EU's existing risk-based framework for regulating AI uses is being considered for amendments to regulate foundational models.\n2. **Layered approach**: EU parliamentarians are pushing for a layered approach to tackle safety issues with foundational models, address complexity of responsibilities across AI supply chains, and address specific content concerns.\n3. **Guidance from existing regulators**: The UK government is expecting existing regulators, including the CMA, to issue guidance to encourage safe, fair, and accountable uses of AI.\n4. **Detailed risk analysis**: The CMA is conducting a detailed risk analysis of foundational AI models, as instructed by the government's white paper, to be in a position to carry out potential enforcements on dangerous, unfair, and unaccountable applications of AI.",
+      "answer": "Based on the provided context, the main AI regulation approaches being considered are:\n\n1. **Risk-based framework**: The EU is considering amendments to the existing risk-based framework for regulating AI uses.\n2. **Layered approach**: EU parliamentarians are pushing for a layered approach to tackle safety issues with foundational models, address complexity of responsibilities across AI supply chains, and address specific content concerns.\n3. **Existing regulators' guidance**: The UK government is expecting existing regulators, including the CMA, to issue guidance to encourage safe, fair, and accountable uses of AI.\n4. **Detailed risk analysis**: The CMA is conducting a detailed risk analysis of foundational AI models, as instructed by the government, to be in a position to carry out potential enforcements on dangerous, unfair, and unaccountable applications of AI.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -81,8 +81,8 @@
       "category": "what",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.9183676242828369,
-      "estimated_tokens": 650
+      "latency": 0.67057204246521,
+      "estimated_tokens": 643
     },
     {
       "question": "What investment amount did OpenAI receive recently?",
@@ -98,12 +98,12 @@
       "category": "what",
       "difficulty": "easy",
       "num_sources": 5,
-      "latency": 0.8916699886322021,
+      "latency": 0.6134421825408936,
       "estimated_tokens": 613
     },
     {
       "question": "When did the major AI investment announcements occur?",
-      "answer": "I cannot find any information in the provided context about when the major AI investment announcements occurred.",
+      "answer": "I cannot verify when the major AI investment announcements occurred.",
       "contexts": [
         "In fact, new data from Carta, which provides cap table management and other services, indicates that AI-focused startups are outperforming their larger peer group at both the seed and Series A stage.\n\nThe dataset, which notes that AI-centered startups are raising more and at higher valuations than other startups, indicates that perhaps the best way to avoid a down round today is to build in the artificial intelligence space.\n\nWhat the data says\n\nPer Carta data relating to the first quarter of the year, seed funding to non-AI startups in the U.S. market that use its services dipped from $1.64 billion to $1.08 billion, or a decline of around 34%. That result is directionally aligned with other data that we\u2019ve seen regarding Q1 2023 venture capital totals; the data points down.",
         "The best way to avoid a down round is to found an AI startup\n\nAs we see unicorns slash staff and the prevalence of down rounds spike, it may seem that the startup ecosystem is chock-full of bad news and little else. That\u2019s not precisely the case.\n\nWhile AI, and in particular the generative AI subcategory, are as hot as the sun, not all venture attention is going to the handful of names that you already know. Sure, OpenAI is able to land nine and 10-figure rounds from a murderer\u2019s row of tech investors and mega-cap corporations. And rising companies like Hugging Face and Anthropic cannot stay out of the news, proving that smaller AI-focused startups are doing more than well.",
@@ -115,8 +115,8 @@
       "category": "when",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.6724684238433838,
-      "estimated_tokens": 522
+      "latency": 0.6828920841217041,
+      "estimated_tokens": 515
     },
     {
       "question": "When was the AI white paper or regulatory framework announced?",
@@ -132,12 +132,12 @@
       "category": "when",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.5716395378112793,
+      "latency": 0.8674852848052979,
       "estimated_tokens": 547
     },
     {
       "question": "Where are the main AI regulation efforts taking place?",
-      "answer": "The main AI regulation efforts are taking place in two locations:\n\n1. The European Union (EU): Lawmakers are deciding on a fixed set of rules for generative AI, with a focus on regulating foundational models via amendments to the risk-based framework for regulating AI uses.\n2. The United Kingdom (U.K.): The CMA (Competition and Markets Authority) is conducting an initial review of AI foundational models, in line with the government's white paper, and is expected to issue guidance to encourage safe, fair, and accountable uses of AI.",
+      "answer": "The main AI regulation efforts are taking place in two locations:\n\n1. The European Union (EU): Lawmakers are deciding on a fixed set of rules for generative AI, with a focus on regulating foundational models via amendments to the risk-based framework for regulating uses of AI.\n2. The United Kingdom (U.K.): The CMA (Competition and Markets Authority) is conducting an initial review of foundational AI models, in line with the government's white paper, and is expected to issue guidance to encourage safe, fair, and accountable uses of AI.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -149,12 +149,12 @@
       "category": "where",
       "difficulty": "easy",
       "num_sources": 5,
-      "latency": 0.9548654556274414,
-      "estimated_tokens": 585
+      "latency": 0.6685454845428467,
+      "estimated_tokens": 586
     },
     {
       "question": "How are companies responding to AI regulation proposals?",
-      "answer": "I cannot find information in the provided context about how companies are responding to AI regulation proposals.",
+      "answer": "I cannot find any information in the provided context about how companies are responding to AI regulation proposals.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -166,12 +166,12 @@
       "category": "how",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.6131734848022461,
-      "estimated_tokens": 501
+      "latency": 0.5914075374603271,
+      "estimated_tokens": 502
     },
     {
       "question": "How do the proposed AI regulations differ across jurisdictions?",
-      "answer": "Based on the provided context, here are the differences in proposed AI regulations across jurisdictions:\n\n- **EU:** Lawmakers are deciding on a fixed set of rules for generative AI, with a focus on regulating foundational models via amendments to the risk-based framework. Parliamentarians are pushing for a layered approach to tackle safety issues and address specific content concerns.\n\n- **U.K.:** The government has tasked existing regulators, including the CMA and ICO, to issue guidance on safe, fair, and accountable uses of AI. The ICO has emphasized the importance of data protection obligations from the outset, taking a data protection by design and by default approach.\n\nKey differences include:\n\n- The EU is considering a more prescriptive approach with a fixed set of rules, while the U.K. is taking a more guidance-based approach, relying on existing regulators to issue guidance.\n- The EU is focusing on regulating foundational models, while the U.K. is emphasizing data protection obligations and the need for developers to consider these from the outset.",
+      "answer": "Based on the provided context, here's a clear and concise answer:\n\nThe proposed AI regulations differ across jurisdictions as follows:\n\n- **EU:** Lawmakers are deciding on a fixed set of rules for generative AI, with a focus on regulating foundational models via amendments to the risk-based framework. Parliamentarians are pushing for a layered approach to tackle safety issues and address specific content concerns.\n- **UK:** The government has tasked existing regulators, including the CMA and ICO, to issue guidance on safe, fair, and accountable uses of AI. The ICO has offered tips and warnings for developers of generative AI to comply with U.K. data protection rules. The government has also asked regulators to support the innovative development and deployment of AI against five overarching principles: safety, security, transparency, fairness, accountability, and contestability.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -183,12 +183,12 @@
       "category": "how",
       "difficulty": "hard",
       "num_sources": 5,
-      "latency": 0.7012925148010254,
-      "estimated_tokens": 691
+      "latency": 0.680537223815918,
+      "estimated_tokens": 656
     },
     {
       "question": "Compare the AI investment trends mentioned across different articles.",
-      "answer": "Here's a comparison of the AI investment trends mentioned across different articles:\n\n- **Seed and Series A stage:** AI-focused startups are outperforming their larger peer group, raising more and at higher valuations.\n- **Q1 2023 venture capital totals:** Seed funding to non-AI startups in the U.S. market declined by 34% from $1.64 billion to $1.08 billion.\n- **Comparison between AI and non-AI startups:** AI-centered startups are raising more and at higher valuations than other startups.\n- **Global trend:** The U.K. competition regulator is reviewing AI foundational models, indicating a growing interest in AI technology.\n- **Regional trend (India):** There is ample room for more Indian companies to pursue IPOs in the AI space, and the nation's IPO market has proven successful and well-regulated for institutional investors.",
+      "answer": "Here's a comparison of the AI investment trends mentioned across different articles:\n\n- **Seed and Series A stage:** AI-focused startups are outperforming their larger peer group, raising more and at higher valuations.\n- **Q1 2023 venture capital totals:** Seed funding to non-AI startups in the U.S. market declined by 34% from $1.64 billion to $1.08 billion.\n- **Indian market:** There is ample room for more Indian companies to pursue IPOs in the AI space, but the market has yet to fully realize its potential for mergers and acquisitions.\n- **U.K. market:** The U.K. competition regulator is reviewing AI foundational models to ensure open, competitive markets and effective consumer protection.\n\nOverall, the trend suggests that AI-focused startups are performing well, while non-AI startups are facing challenges in terms of funding.",
       "contexts": [
         "In fact, new data from Carta, which provides cap table management and other services, indicates that AI-focused startups are outperforming their larger peer group at both the seed and Series A stage.\n\nThe dataset, which notes that AI-centered startups are raising more and at higher valuations than other startups, indicates that perhaps the best way to avoid a down round today is to build in the artificial intelligence space.\n\nWhat the data says\n\nPer Carta data relating to the first quarter of the year, seed funding to non-AI startups in the U.S. market that use its services dipped from $1.64 billion to $1.08 billion, or a decline of around 34%. That result is directionally aligned with other data that we\u2019ve seen regarding Q1 2023 venture capital totals; the data points down.",
         "Pai, pictured above, asserts that there is ample room for more Indian companies to pursue IPOs, as the nation\u2019s IPO market has proven successful and well-regulated for institutional investors. He anticipates a transformation in India\u2019s stock index, with an increasing number of tech companies, apps, services, fintech, and payment solutions becoming part of the index.\n\nDespite this, Pai acknowledges that the Indian market has yet to fully realize its potential for mergers and acquisitions. Although there has been growth in M&A activity\u2014increasing three to four times in the past five years\u2014it remains below expectations. For the Indian market to flourish, Pai emphasizes the need for a more robust M&A landscape.",
@@ -200,12 +200,12 @@
       "category": "comparison",
       "difficulty": "hard",
       "num_sources": 5,
-      "latency": 0.7653913497924805,
-      "estimated_tokens": 719
+      "latency": 0.6814830303192139,
+      "estimated_tokens": 722
     },
     {
       "question": "What are the different perspectives on AI safety mentioned in the articles?",
-      "answer": "The different perspectives on AI safety mentioned in the articles are:\n\n1. **Government's perspective**: The UK government prefers to avoid setting bespoke rules for AI, instead relying on existing regulators to issue guidance for safe, fair, and accountable uses of AI.\n\n2. **CMA's perspective**: The CMA is conducting an initial review of foundational AI models to assess their implications for competition and consumer protection, and to identify potential risks that can be addressed through existing powers.\n\n3. **EU lawmakers' perspective**: EU lawmakers are considering a fixed set of rules to regulate generative AI, with a focus on regulating foundational models via amendments to the risk-based framework for regulating AI.\n\n4. **Concerns about AI risks**: The letter mentions concerns about the potential risks of AI, including:\n\t* Allowing machines to flood information channels with propaganda and untruth.\n\t* Automating away jobs, including fulfilling ones.\n\t* Developing nonhuman minds that might outnumber, outsmart, obsolete, and replace humans.\n\t* Risking loss of control of civilization.\n\n5. **Need for human oversight**: The letter emphasizes the need for human oversight and decision-making, rather than delegating decisions to unelected tech leaders.",
+      "answer": "Based on the provided context, the following perspectives on AI safety are mentioned:\n\n- **Government's perspective**: The UK government prefers to avoid setting bespoke rules for AI, instead relying on existing regulators like the CMA to issue guidance for safe, fair, and accountable uses of AI.\n\n- **CMA's perspective**: The CMA is conducting an initial review of foundational AI models to assess their implications for competition and consumer protection, and is expected to use its existing powers to enforce safe and fair uses of AI.\n\n- **EU lawmakers' perspective**: EU lawmakers are deciding on a fixed set of rules for generative AI, with a focus on regulating foundational models via amendments to the risk-based framework for regulating AI uses.\n\n- **Concerns about AI risks**: The letter mentions concerns about AI risks, including:\n  - Allowing machines to flood information channels with propaganda and untruth\n  - Automating away fulfilling jobs\n  - Developing nonhuman minds that might outnumber, outsmart, and replace humans\n  - Risking loss of control of civilization\n\n- **Parliamentarians' perspective**: Parliamentarians are pushing for a layered approach to tackle safety issues with foundational models, address complexity of responsibilities across AI supply chains, and address specific content concerns like copyright.",
       "contexts": [
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
@@ -217,12 +217,12 @@
       "category": "comparison",
       "difficulty": "hard",
       "num_sources": 5,
-      "latency": 0.6962192058563232,
-      "estimated_tokens": 706
+      "latency": 0.7294065952301025,
+      "estimated_tokens": 719
     },
     {
       "question": "How have AI regulatory discussions evolved over time according to the articles?",
-      "answer": "According to the articles, AI regulatory discussions have evolved as follows:\n\n- Initially, the EU's incoming AI rulebook was in the process of being decided, with a focus on regulating foundational models via amendments to the risk-based framework.\n- A white paper published in March suggested that existing regulators, including the CMA, would issue guidance to encourage safe, fair, and accountable uses of AI, rather than setting bespoke rules.\n- The CMA's initial review of foundational AI models is in line with the white paper's instructions, which emphasizes conducting \"detailed risk analysis\" to enforce safe and fair AI applications.\n- EU lawmakers are now considering a layered approach to tackle safety issues with foundational models, address responsibilities across AI supply chains, and address specific content concerns associated with generative AI.\n- The complexity of AI regulatory discussions has increased, with parliamentarians pushing for a more comprehensive approach, and existing regulations, such as EU data protection law, already applying to AI.",
+      "answer": "According to the articles, AI regulatory discussions have evolved over time as follows:\n\n- Initially, the EU's incoming AI rulebook was being negotiated, focusing on regulating foundational models via amendments to the risk-based framework for regulating AI uses.\n- A March AI white paper signaled ministers' preference to avoid setting bespoke rules or oversight bodies to govern AI uses, instead relying on existing regulators to issue guidance.\n- Existing regulators, including the CMA, were instructed to conduct \"detailed risk analysis\" to enforce safe, fair, and accountable AI uses using their existing powers.\n- The CMA's review of foundational AI models is in line with the white paper's instructions, focusing on supporting the innovative development and deployment of AI against five overarching principles: safety, security, transparency, fairness, accountability, and contestability.\n- EU parliamentarians are pushing for a layered approach to tackle safety issues with foundational models, address complexity in AI supply chains, and address specific content concerns associated with generative AI.\n- The EU's data protection law already applies to AI, and privacy-focused investigations of models like ChatGPT are underway in the bloc.",
       "contexts": [
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
@@ -234,12 +234,12 @@
       "category": "temporal",
       "difficulty": "hard",
       "num_sources": 5,
-      "latency": 0.7165658473968506,
-      "estimated_tokens": 677
+      "latency": 0.8105535507202148,
+      "estimated_tokens": 699
     },
     {
       "question": "What are the key concerns about AI development mentioned in the articles?",
-      "answer": "The key concerns about AI development mentioned in the articles are:\n\n1. **Risk of propaganda and untruth**: The potential for AI systems to flood information channels with false information.\n2. **Job loss**: The risk of automating away jobs, including fulfilling ones.\n3. **Loss of control**: The possibility of developing AI systems that might eventually outnumber, outsmart, and replace humans.\n4. **Safety and security**: The need to ensure that AI systems are safe, secure, and robust.\n5. **Transparency and explainability**: The importance of understanding how AI systems work and making their decision-making processes transparent.\n6. **Fairness and accountability**: The need to ensure that AI systems are fair and accountable, and that there are mechanisms for redress.\n7. **Copyright and content concerns**: The potential for generative AI to raise specific content concerns, such as copyright infringement.",
+      "answer": "The key concerns about AI development mentioned in the articles are:\n\n- The risk of machines spreading propaganda and untruth through information channels.\n- The potential for AI to automate away jobs, including fulfilling ones.\n- The possibility of developing nonhuman minds that might outnumber, outsmart, and replace humans.\n- The risk of losing control of civilization.\n- Ensuring the safety, security, and robustness of AI systems.\n- Maintaining transparency and explainability in AI decision-making.\n- Ensuring fairness in AI applications.\n- Holding AI developers accountable for their actions.\n- Addressing specific content concerns, such as copyright issues associated with generative AI.\n- Managing the risks associated with AI development to prevent unaccountable and unfair applications.",
       "contexts": [
         "The letter reads:\n\nContemporary AI systems are now becoming human-competitive at general tasks,[3] and we must ask ourselves: Should we let machines flood our information channels with propaganda and untruth? Should we automate away all the jobs, including the fulfilling ones? Should we develop nonhuman minds that might eventually outnumber, outsmart, obsolete and replace us? Should we risk loss of control of our civilization? Such decisions must not be delegated to unelected tech leaders. Powerful AI systems should be developed only once we are confident that their effects will be positive and their risks will be manageable.\n\nMarch 23, 2023",
         "Over the English Channel in the European Union, meanwhile, lawmakers are in the process of deciding a fixed set of rules that are likely to apply to generative AI.\n\nNegotiations toward a final text for the EU\u2019s incoming AI rulebook are ongoing \u2014 but currently there\u2019s a focus on how to regulate foundational models via amendments to the risk-based framework for regulating uses of AI the bloc published in draft over two years ago.",
@@ -251,12 +251,12 @@
       "category": "what",
       "difficulty": "medium",
       "num_sources": 5,
-      "latency": 0.7001545429229736,
-      "estimated_tokens": 633
+      "latency": 0.7311825752258301,
+      "estimated_tokens": 615
     },
     {
       "question": "Which AI companies are mentioned as receiving significant funding?",
-      "answer": "Based on the provided context, the following AI companies are mentioned as receiving significant funding:\n\n1. OpenAI: Mentioned as landing 9 and 10-figure rounds from tech investors and mega-cap corporations.\n2. Hugging Face: Mentioned as a rising company that cannot stay out of the news, implying significant funding.\n3. Anthropic: Mentioned as a rising company that cannot stay out of the news, implying significant funding.\n4. Snackable.AI: Acquired by Amazon in 2022, with deal terms not disclosed.",
+      "answer": "Based on the provided context, the following AI companies are mentioned as receiving significant funding:\n\n1. OpenAI: Received 9 and 10-figure rounds from tech investors and mega-cap corporations.\n2. Hugging Face: Received significant funding, although the exact amount is not specified.\n3. Anthropic: Received significant funding, although the exact amount is not specified.\n4. Snackable.AI: Acquired by Amazon in 2022, although the deal terms were not disclosed.",
       "contexts": [
         "In fact, new data from Carta, which provides cap table management and other services, indicates that AI-focused startups are outperforming their larger peer group at both the seed and Series A stage.\n\nThe dataset, which notes that AI-centered startups are raising more and at higher valuations than other startups, indicates that perhaps the best way to avoid a down round today is to build in the artificial intelligence space.\n\nWhat the data says\n\nPer Carta data relating to the first quarter of the year, seed funding to non-AI startups in the U.S. market that use its services dipped from $1.64 billion to $1.08 billion, or a decline of around 34%. That result is directionally aligned with other data that we\u2019ve seen regarding Q1 2023 venture capital totals; the data points down.",
         "The best way to avoid a down round is to found an AI startup\n\nAs we see unicorns slash staff and the prevalence of down rounds spike, it may seem that the startup ecosystem is chock-full of bad news and little else. That\u2019s not precisely the case.\n\nWhile AI, and in particular the generative AI subcategory, are as hot as the sun, not all venture attention is going to the handful of names that you already know. Sure, OpenAI is able to land nine and 10-figure rounds from a murderer\u2019s row of tech investors and mega-cap corporations. And rising companies like Hugging Face and Anthropic cannot stay out of the news, proving that smaller AI-focused startups are doing more than well.",
@@ -268,12 +268,12 @@
       "category": "who",
       "difficulty": "easy",
       "num_sources": 5,
-      "latency": 0.7346968650817871,
-      "estimated_tokens": 531
+      "latency": 0.6394960880279541,
+      "estimated_tokens": 521
     },
     {
       "question": "What role does the CMA play in AI oversight according to the articles?",
-      "answer": "According to the articles, the CMA plays the following roles in AI oversight:\n\n1. Conducting an initial review of foundational AI models, as instructed by the government's white paper.\n2. Issuing guidance to encourage safe, fair, and accountable uses of AI.\n3. Conducting a detailed risk analysis to be in a position to carry out potential enforcements on dangerous, unfair, and unaccountable applications of AI, using their existing powers.\n4. Focusing on the implications of AI foundation models for competition and consumer protection.\n5. Supporting the innovative development and deployment of AI against five overarching principles: safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; and contestability and redress.",
+      "answer": "According to the articles, the CMA (Competition and Markets Authority) plays the following roles in AI oversight:\n\n1. Conducting an initial review of foundational AI models to assess their implications for competition and consumer protection.\n2. Issuing guidance to encourage safe, fair, and accountable uses of AI, as instructed by the government.\n3. Performing a \"detailed risk analysis\" to be in a position to carry out potential enforcements on dangerous, unfair, and unaccountable applications of AI, using their existing powers.\n4. Supporting the innovative development and deployment of AI against five overarching principles: safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; and contestability and redress.",
       "contexts": [
         "An AI white paper published in March signalled ministers\u2019 preference to avoid setting any bespoke rules (or oversight bodies) to govern uses of artificial intelligence at this stage. However ministers said existing U.K. regulators \u2014 including the CMA, which was directly name-checked \u2014 would be expected to issue guidance to encourage safe, fair and accountable uses of AI.\n\nThe CMA says its initial review of foundational AI models is in line with instructions in the white paper, where the government talked about existing regulators conducting \u201cdetailed risk analysis\u201d in order to be in a position to carry out potential enforcements, i.e. on dangerous, unfair and unaccountable applications of AI, using their existing powers.",
         "\u201cFoundation models, which include large language models and generative artificial intelligence (AI), that have emerged over the past five years, have the potential to transform much of what people and businesses do. To ensure that innovation in AI continues in a way that benefits consumers, businesses and the UK economy, the government has asked regulators, including the [CMA], to think about how the innovative development and deployment of AI can be supported against five overarching principles: safety, security and robustness; appropriate transparency and explainability; fairness; accountability and governance; and contestability and redress,\u201d the CMA wrote in a press release.\u201d",
@@ -285,22 +285,22 @@
       "category": "what",
       "difficulty": "easy",
       "num_sources": 5,
-      "latency": 0.6481668949127197,
-      "estimated_tokens": 632
+      "latency": 0.6666674613952637,
+      "estimated_tokens": 629
     }
   ],
   "category_breakdown": {
+    "comparison": 2,
     "when": 2,
-    "where": 1,
-    "who": 3,
     "temporal": 1,
-    "how": 2,
+    "who": 3,
     "what": 4,
-    "comparison": 2
+    "where": 1,
+    "how": 2
   },
   "difficulty_breakdown": {
-    "hard": 4,
     "medium": 6,
+    "hard": 4,
     "easy": 5
   }
 }

@@ -1,7 +1,7 @@
 {
   "total_articles": 21,
   "total_chunks": 144,
-  "index_time_seconds": 6.149279,
+  "index_time_seconds": 6.040848,
   "config_used": {
     "name": "alt",
     "chunk_size": 1500,
